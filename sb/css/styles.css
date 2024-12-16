@@ -11440,6 +11440,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-bottom: 15px;
 }
 
+/* Target only the logo image in Service Item 5 */
+.service-item-logo .service-icon {
+  width: 150px; /* Adjust size */
+  height: 150px; /* Adjust size */
+}
+
+
 .service-title {
   font-size: 1.5rem;
   margin: 0;
