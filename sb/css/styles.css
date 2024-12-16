@@ -11421,11 +11421,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   
-  /* Adjust the width to make the container thicker */
-  width: 200px; /* Increase the width as desired */
+  /* Make the container wider to make it look more square */
+  width: 250px; /* Adjust this value as necessary for the desired width */
   
-  /* Ensure the height adjusts according to content (it shouldn't be fixed) */
-  height: auto; /* This keeps the height flexible based on the content */
+  /* Ensure the height remains the same as in the original design */
+  height: 300px; /* Keep the height fixed if the original height is good */
   
   margin: 0 auto; /* Centers the container horizontally */
 }
