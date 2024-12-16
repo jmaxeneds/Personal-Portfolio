@@ -11355,11 +11355,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-wrap: wrap;
   gap: 30px;
   margin-top: 30px;
+  border: none;
 }
 
 .timeline-column {
   flex: 1;
   min-width: 300px;
+  border: none;
 }
 
 .timeline-column .title {
@@ -11373,7 +11375,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   padding-left: 20px;
   margin-bottom: 30px;
-  min-height: 200px; /* Ensure line connects */
+  border-left: 2px solid #000; /* This line creates the vertical line */
+  height: 100%; /* Ensure line connects */
+  min-height: 100px;
 }
 
 .timeline-box::before {
