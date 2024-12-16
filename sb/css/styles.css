@@ -11373,8 +11373,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   position: relative;
   padding-left: 20px;
   margin-bottom: 30px;
-  border-left: 2px solid #000; /* Changed color */
-  min-height: 100px; /* Ensure line connects */
+  min-height: 200px; /* Ensure line connects */
 }
 
 .timeline-box::before {
