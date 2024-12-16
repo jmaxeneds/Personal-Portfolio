@@ -11421,11 +11421,9 @@ section#contact form#contactForm :-ms-input-placeholder {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   
-  /* Make the container wider to make it look more square */
-  width: 350px; /* Adjust this value as necessary for the desired width */
-  
-  /* Ensure the height remains the same as in the original design */
-  height: 300px; /* Keep the height fixed if the original height is good */
+  /* Set width and height to match the portfolio dimensions */
+  width: 26rem; /* Matches portfolio item width */
+  height: 26rem; /* Make it square, matching portfolio item height */
   
   margin: 0 auto; /* Centers the container horizontally */
 }
