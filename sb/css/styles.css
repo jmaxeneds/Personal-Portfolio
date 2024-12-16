@@ -11408,3 +11408,45 @@ section#contact form#contactForm :-ms-input-placeholder {
 .timeline-content ul li {
   margin-bottom: 5px;
 }
+
+/* Skills and Tools Section */
+.timeline-column .skills-tools {
+  padding-left: 27px;
+  border-left: 2px solid #0ef;
+}
+
+.skills-tools .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: start;
+}
+
+.skills-tools .skills .skill {
+  text-align: center;
+  width: 100px;
+}
+
+.skills-tools .skills .skill img {
+  width: 50px;
+  height: 50px;
+}
+
+.skills-tools .skills .rating {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px; /* Space between star and number */
+}
+
+.skills-tools .skills .star {
+  color: yellow;
+  font-size: 20px;
+}
+
+.skills-tools .skills .number {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
