@@ -11420,6 +11420,24 @@ section#contact form#contactForm :-ms-input-placeholder {
   overflow: hidden;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+
+  /* Adjust width to make it wider */
+  width: 100%; /* Full width of its parent */
+  max-width: 400px; /* Maximum width if you want to limit it */
+  margin: 0 auto; /* Center align the items */
+  aspect-ratio: 1; /* Maintain a square aspect ratio */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* To have space between items */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+
+}
+
+.col-lg-4, .col-sm-6 {
+    flex: 0 0 auto; /* Don't shrink, and adjust to content size */
+    width: 33.3333%; /* Adjust based on your layout */
 }
 
 .service-icon {
