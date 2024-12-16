@@ -11426,9 +11426,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: 20rem; /* Make it square, matching portfolio item height */
   
   margin: 0 auto; /* Centers the container horizontally */
+  
+  /* Flexbox to center content */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
 }
-
-
 
 .service-icon {
   width: 60px; /* Adjust icon size */
@@ -11482,4 +11486,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 .service-item:hover .service-content {
   opacity: 0;
 }
+
 
