@@ -11369,6 +11369,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #333;
 }
 
+
 .timeline-box {
   position: relative;
   padding-left: 20px;
@@ -11377,6 +11378,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   /* Remove height: 100%; */
   min-height: 100px; /* Set a minimum height for each box */
   padding-bottom: 10px; /* Optional: Add space at the bottom */
+}
+
+.timeline-column .timeline-box { /* i add this*/
+  border-left: 2px solid #000;
+}
+
+.timeline-box .timeline-content { /* i add this*/
+  padding-left: 27px; 
 }
 
 .timeline-box::before {
