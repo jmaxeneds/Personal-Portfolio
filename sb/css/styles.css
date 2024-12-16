@@ -10986,89 +10986,6 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-#portfolio .portfolio-item {
-  max-width: 26rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-#portfolio .portfolio-item .portfolio-link {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  display: flex;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 200, 0, 0.9);
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity ease-in-out 0.25s;
-}
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 1.25rem;
-  color: white;
-}
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
-  opacity: 1;
-}
-#portfolio .portfolio-item .portfolio-caption {
-  padding: 1.5rem;
-  text-align: center;
-  background-color: #fff;
-}
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
-  margin-bottom: 0;
-}
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
-}
-.portfolio-modal .modal-content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  text-align: center;
-}
-.portfolio-modal .modal-content h2, .portfolio-modal .modal-content .h2 {
-  font-size: 3rem;
-  line-height: 3rem;
-}
-.portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
-  margin-bottom: 2rem;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-.portfolio-modal .modal-content p {
-  margin-bottom: 2rem;
-}
-.portfolio-modal .modal-content ul.list-inline {
-  margin-bottom: 2rem;
-}
-.portfolio-modal .modal-content img {
-  margin-bottom: 2rem;
-}
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
-  cursor: pointer;
-  background-color: transparent;
-}
-.portfolio-modal .close-modal:hover {
-  opacity: 0.3;
-}
 
 .timeline {
   position: relative;
@@ -11494,4 +11411,75 @@ section#contact form#contactForm :-ms-input-placeholder {
   opacity: 0;
 }
 
+/* Portfolio Section Styling */
+.portfolio-section {
+  padding: 40px 0;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.portfolio-image {
+  width: 100%; /* Ensures image takes full width */
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+}
+
+/* Hover Effect */
+.portfolio-item:hover .portfolio-image {
+  transform: scale(1.05); /* Slight zoom effect */
+  filter: brightness(50%); /* Darkens the image */
+}
+
+.portfolio-hover-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-item:hover .portfolio-hover-content {
+  opacity: 1;
+}
+
+.portfolio-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.portfolio-date {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.portfolio-course {
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.portfolio-description {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Grid Styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjusts spacing between items */
+}
+
+.col-md-6 {
+  flex: 0 0 48%; /* Two columns */
+}
 
