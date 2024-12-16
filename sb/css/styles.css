@@ -11374,7 +11374,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   padding-left: 20px;
   margin-bottom: 30px;
   border-left: 2px solid #000; /* Changed color */
-  min-height: 60px; /* Ensure line connects */
+  min-height: 100px; /* Ensure line connects */
 }
 
 .timeline-box::before {
