@@ -11423,7 +11423,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   
   /* Set width and height to match the portfolio dimensions */
   width: 26rem; /* Matches portfolio item width */
-  height: 26rem; /* Make it square, matching portfolio item height */
+  height: 20rem; /* Make it square, matching portfolio item height */
   
   margin: 0 auto; /* Centers the container horizontally */
 }
