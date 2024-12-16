@@ -11424,7 +11424,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   cursor: pointer;
 }
 
-.portfolio-image {
+.portfolio-item .portfolio-image {
   width: 100%; /* Ensures image takes full width */
   height: auto;
   transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
@@ -11472,14 +11472,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   line-height: 1.5;
 }
 
-/* Grid Styling */
-.row {
+/* Portfolio Grid Styling */
+.portfolio-section .row {
   display: flex;
   flex-wrap: wrap;
   gap: 20px; /* Adjusts spacing between items */
 }
 
-.col-md-6 {
+.portfolio-section .col-md-6 {
   flex: 0 0 48%; /* Two columns */
 }
-
