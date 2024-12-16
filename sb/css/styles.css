@@ -11410,29 +11410,28 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 /* Skills and Tools Section */
-.timeline-column .skills-tools {
-  padding-left: 27px;
-  border-left: 2px solid #0ef;
+.skills-tools {
+  padding: 30px 0;
 }
 
-.skills-tools .skills {
+.skills {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
   justify-content: start;
 }
 
-.skills-tools .skills .skill {
+.skills .skill {
   text-align: center;
   width: 100px;
 }
 
-.skills-tools .skills .skill img {
+.skills .skill img {
   width: 50px;
   height: 50px;
 }
 
-.skills-tools .skills .rating {
+.skills .star-rating {
   margin-top: 8px;
   display: flex;
   justify-content: center;
@@ -11440,12 +11439,12 @@ section#contact form#contactForm :-ms-input-placeholder {
   gap: 4px; /* Space between star and number */
 }
 
-.skills-tools .skills .star {
+.skills .star {
   color: yellow;
   font-size: 20px;
 }
 
-.skills-tools .skills .number {
+.skills .number {
   font-size: 16px;
   font-weight: bold;
   color: #333;
