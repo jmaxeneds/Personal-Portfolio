@@ -11359,8 +11359,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* Target only the logo image in Service Item 5 */
 .service-item-logo .service-icon {
-  width: 250px; /* Adjust size */
-  height: 250px; /* Adjust size */
+  width: 200px; /* Adjust size */
+  height: 200px; /* Adjust size */
 }
 
 
